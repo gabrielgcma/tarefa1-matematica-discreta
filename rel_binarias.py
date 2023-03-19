@@ -18,7 +18,7 @@ def gerar_relacoes(A, caminho_arquivo):
                     #
                     #     Pensando em uma matriz j x k (ou seja, n x n), pegamos cada elemento dela
                     # linha por linha, da esquerda para a direita, para mapear as relações binárias
-                    # (A[j], A[k]) em um número binária. Por exemplo, com n = 2:
+                    # (A[j], A[k]) em um número binário. Por exemplo, com n = 2:
                     #   
                     #            |   0    1 <= k
                     #        -------------
@@ -49,7 +49,7 @@ def gerar_relacoes(A, caminho_arquivo):
                     #        Pela sobreposição dos dois números binários, percebemos que o bit ligado 
                     # no número binário 2 indica que, de fato, a relação binária por ele representada
                     # pertence ao conjunto de relações que o número binário 7 representa, pois no número
-                    # 7 em binário, o mesmo bit está ligado
+                    # 7 em binário o mesmo bit está ligado.
                     # 
                     # Logo, essa confirmação pode ser feita da seguinte forma: se deslocarmos os bits
                     # do 7 para a direita 2 vezes (o que é i >> pos_bit_relacao), temos:
